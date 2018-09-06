@@ -1,0 +1,106 @@
+.width-constrain {
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.width-constrain.has-padding {
+  padding: 0 2rem;
+}
+.page-header .tabs-strip {
+  height: 40px;
+  background: #72B62D;
+}
+.page-header .tabs-strip .tab-menu {
+  color: white;
+  height: 100%;
+  max-height: 40px;
+  justify-content: space-between;
+}
+.page-header .tabs-strip .tab-menu .section-menu,
+.page-header .tabs-strip .tab-menu .action-menu {
+  display: flex;
+}
+.page-header .tabs-strip .tab-menu .section-menu a,
+.page-header .tabs-strip .tab-menu .action-menu a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding: 0 1rem;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.page-header .tabs-strip .tab-menu .section-menu a.active,
+.page-header .tabs-strip .tab-menu .action-menu a.active {
+  background: #F5F5F5;
+  color: black;
+}
+.page-header .tabs-strip .tab-menu .section-menu a.right-border:after,
+.page-header .tabs-strip .tab-menu .action-menu a.right-border:after {
+  content: "";
+  height: 15px;
+  position: absolute;
+  right: 0;
+  top: 12.5px;
+  border-right: 1px solid white;
+}
+.page-header .main-menu-wrapper {
+  height: 100px;
+  background: #F5F5F5;
+}
+.page-header .main-menu-wrapper .main-menu {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.page-header .main-menu-wrapper .main-menu .left-hand-side {
+  align-items: center;
+  display: flex;
+}
+.page-header .main-menu-wrapper .main-menu .left-hand-side .hero-logo {
+  max-width: 238px;
+}
+.page-header .main-menu-wrapper .main-menu .left-hand-side .hero-logo img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.page-header .main-menu-wrapper .main-menu .left-hand-side .main-menu-items {
+  padding-left: 1rem;
+}
+.page-header .main-menu-wrapper .main-menu .left-hand-side .main-menu-items a {
+  padding: 0 1rem;
+  color: black;
+}
+.page-header .main-menu-wrapper .main-menu .right-hand-side {
+  align-items: center;
+  display: flex;
+}
+.page-header .sub-menu-wrapper {
+  height: 70px;
+  border-bottom: 1px solid black;
+}
+.page-header .sub-menu-wrapper .sub-menu {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+}
+.page-header .sub-menu-wrapper .sub-menu .left-hand-side {
+  align-items: center;
+  display: flex;
+}
+.page-header .sub-menu-wrapper .sub-menu .right-hand-side {
+  align-items: center;
+  display: flex;
+}
+.page-content.welcome-page {
+  height: 1000px;
+}
+.hero-carousel {
+  width: 100%;
+  max-height: 480px;
+}
+.flex-item {
+  display: flex;
+}
+/*# sourceMappingURL=digicape.css.map */
