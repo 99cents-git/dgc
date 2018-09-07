@@ -70,7 +70,7 @@
       height: 100%;
       justify-content: space-between;
 
-      .left-hand-side {
+      .is-left {
         align-items: center;
         display: flex;
 
@@ -93,7 +93,7 @@
         }
       }
 
-      .right-hand-side {
+      .is-right {
         align-items: center;
         display: flex;
       }
@@ -109,14 +109,23 @@
       height: 70px;
       justify-content: space-between;
 
-      .left-hand-side {
+      .is-left {
         align-items: center;
         display: flex;
       }
 
-      .right-hand-side {
+      .is-right {
         align-items: center;
         display: flex;
+      }
+
+      .shop-menu {
+        .contact {
+          padding-right: 2rem;
+        }
+        .cart-items {
+          padding-right: 1rem;
+        }
       }
     }
   }
@@ -137,6 +146,9 @@
 .hero-carousel-footer {
 
 }
+
+
+/* Helper classes */
 
 .flex-item {
   display: flex;

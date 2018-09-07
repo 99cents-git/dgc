@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
   <link rel="stylesheet" href="../semantic/dist/semantic.min.css">
   <link rel="stylesheet" href="css/digicape.css">
 </head>
@@ -20,27 +20,36 @@
       <div class="tabs-strip">
         <div class="width-constrain has-padding flex-item tab-menu">
           <div class="section-menu">
-            <a class="active">Personal</a> <a class="">Business</a> <a class="">Education</a>
+            <a class="active">Personal</a>
+            <a class="">Business</a>
+            <a class="">Education</a>
           </div>
           <div class="action-menu">
-            <a class="right-border"><i class="user icon"></i>Log In</a> <a class="">Register</a>
+            <a class="right-border">
+              <i class="user icon"></i>
+              Log In
+            </a>
+            <a class="">Register</a>
           </div>
         </div>
       </div>
       <div class="main-menu-wrapper">
         <div class="width-constrain has-padding flex-item main-menu">
-          <div class="left-hand-side">
+          <div class="is-left">
             <div class="hero-logo">
               <img src="./img/Logo.png" alt="Welcome to DigiCape">
             </div>
             <div class="main-menu-items">
-              <a href="">Shop</a> <a href="">Training</a> <a href="">Support</a> <a href="">Blog</a> <a href="">Contact
-                                                                                                                Us</a>
+              <a href="">Shop</a>
+              <a href="">Training</a>
+              <a href="">Support</a>
+              <a href="">Blog</a>
+              <a href="">Contact Us</a>
             </div>
           </div>
-          <div class="right-hand-side">
+          <div class="is-right">
             <div class="ui icon input">
-              <input type="text" placeholder="Search...">
+              <input type="text" placeholder="Search our store">
               <i class="search icon"></i>
             </div>
           </div>
@@ -48,34 +57,53 @@
       </div>
       <div class="sub-menu-wrapper">
         <div class="width-constrain has-padding flex-item sub-menu">
-          <div class="left-hand-side">
+          <div class="is-left">
             <div class="products-menu">
               <div class="ui text menu sticky">
-                <a class="browse item">
-                  Mac
+                <a class="browse item"> Mac
                   <i class="dropdown icon"></i>
-                </a>                <a class="browse item">
-                  iPad
+                </a>
+                <a class="browse item"> iPad
                   <i class="dropdown icon"></i>
-                </a>                <a class="browse item">
-                  iPhone
+                </a>
+                <a class="browse item"> iPhone
                   <i class="dropdown icon"></i>
-                </a>                <a class="browse item">
-                  Watch
+                </a>
+                <a class="browse item"> Watch
                   <i class="dropdown icon"></i>
-                </a>                <a class="browse item">
-                  TV
+                </a>
+                <a class="browse item"> TV
                   <i class="dropdown icon"></i>
-                </a>                <a class="browse item">
-                  Accessories
+                </a>
+                <a class="browse item"> Accessories
                   <i class="dropdown icon"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div class="right-hand-side">
+          <div class="is-right">
             <div class="shop-menu">
-              Shop
+              <span class="contact">
+                <span>Call us on</span>
+                <i class="phone icon"></i>
+                0860 10 51 55
+              </span>
+              <span class="cart-overview">
+                <i class="cart icon"></i>
+                <span class="cart-items">
+                  <span id="cartitems"><!--$number of items-->10<!----></span>
+                  <label for="cartitems">Items</label>
+                </span>
+                <span>
+                  <a class="browse item">
+                    <label for="cartvalue">R</label>
+                    <span id="cartvalue"><!--$cart value-->10.00<!----></span>
+                    <!-- show this if cart > 0 -->
+                    <i class="dropdown icon"></i>
+                    <!-- end show -->
+                  </a>
+                </span>
+              </span>
             </div>
           </div>
         </div>
